@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /* This program forks and and the prints whether the process is
  *   - the child (the return value of fork() is 0), or
